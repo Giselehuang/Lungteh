@@ -1,0 +1,22 @@
+name: 📥 申請上傳權限
+description: 用來申請素材區的上傳權限
+title: "[權限申請]"
+labels: ["permission-request"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: 姓名
+      description: 請填寫你的真實姓名
+      placeholder: 張小明
+    validations:
+      required: true
+
+  - type: input
+    id: email
+    attributes:
+      label: Email
+      description: 請填寫聯絡用 Email
+      placeholder: your@email.com
+    validations:
+      required: true
